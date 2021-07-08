@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+body {
+    color: black;
+    opacity: 0.75;
+    font-family: 'Inter', serif;
+}
+
+h1 {
+    font-family: 'Inter', serif;
+    font-size: 38px;
+}
+
+h2 {
+    font-family: 'Inter', serif;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Inter', serif;
+}
+  
+p {
+    font-family: 'Inter', serif;
+}
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.navbar {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar_right {
+    float: right !important;
+    padding-left: 10px !important;;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #ffffff;
+    color: orange;
+}
+  
