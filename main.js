@@ -16,7 +16,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   //mainWindow.loadFile('pages/home.html')
-  mainWindow.loadFile('pages/card_review.html')
+  mainWindow.loadFile('pages/home.html')
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()

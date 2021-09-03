@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="../styles.css">
+    </head>
+
+    <body>
+        <div class="greeting" id="greeting">
+            <h1>Hey Bradley! Ready to learn?</h1>
+            
+        </div>
+    
+        <h1>Hello, my name is <span id="name"></span></h1>
+        <script>
+            let name = "Nathan";
+            document.getElementById("name").innerHTML = name;
+        </script>
+    
+        <p id="greetings">Greetings</p>
+    
+        <script>
+            document.getElementById("greetings").innerHTML = "Bonjour";
+        </script>
+    </body>
+
+</html>

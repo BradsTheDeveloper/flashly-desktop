@@ -11,18 +11,50 @@
     </head>
 
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <div class="greeting" id="greeting">
+        <h1>Hey Bradley! Ready to learn?</h1>
+        
+    </div>
 
-    <div class="navbar">
+    <h1>Hello, my name is <span id="name"></span></h1>
+    <script>
+        let name = "Nathan";
+        document.getElementById("name").innerHTML = name;
+    </script>
+
+    <p id="greetings">Greetings</p>
+
+    <script>
+        document.getElementById("greetings").innerHTML = "Bonjour";
+    </script>
+
+    <div class="nav" id="nav">
+        <button class="navButton" id='homeButton'>
+            <img src="../assets/home_icon.png" width="30" height="30">
+        </button>
+
+        <button class="navButton" id='libraryButton'>
+            <img src="../assets/library_icon.png" width="30" height="30">
+        </button>
+
+        <button class="navButton" id='friendsButton'>
+            <img src="../assets/friends_icon.png" width="30" height="30">
+        </button>
+
+        <button class="navButton" id='gamesButton'>
+            <img src="../assets/games_icon.png" width="30" height="30">
+        </button>
+    </div>
+    
+    <!--
+    <div class="navbar" id="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#library">Library</a>
         <a href="#friends">Friends</a>
         <a href="#games">Games</a>
         <a href="#profile" class="navbar_right">Profile</a>
     </div>
+    -->
 
     </body>
 
